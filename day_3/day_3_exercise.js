@@ -107,3 +107,31 @@ console.log(now.getTime())
 
 
 //level 2
+
+//area of triangle
+let base = prompt("Enter base: ")
+let height = prompt("Enter height: ")
+let area = 0.5 *base * height
+
+console.log("The of the triangle: " + area)
+
+//perimeter of triangle
+let a = prompt("Enter side a: ")
+let b = prompt("Enter side b: ")
+let c = prompt("Enter side c: ")
+let perimeter = a + b +c
+
+console.log("The perimeter of the triangle is: " + perimeter)
+
+//perimeter and area of rectangle
+let length = prompt("Enter length: ")
+let width = prompt("Enter width: ")
+let rec_perimeter = 2 (length + width)
+let rec_area = length * width
+
+//area and circumference of cicle
+let radius = prompt("Enter radius: ")
+const PI = 5.142
+let area = PI *radius *radius
+let cicumference = 2 * PI * radius
+
