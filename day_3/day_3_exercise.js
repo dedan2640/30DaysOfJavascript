@@ -57,21 +57,53 @@ console.log(4 != '4')
 console.log(4 == '4')
 console.log(4 === '4')
 
-length("python")
-length("jargon")
+//find length and compare
+var text1 = "python"
+var text2 = "jargon"
+
+var length1 =text1.length
+var lenght2 = text2.length
 
 
 
-console.log(4 > 3 && 10 < 12)
-console.log(4 > 3 && 10 > 12)
-console.log(4 > 3 || 10 < 12)
-console.log(4 > 3 || 10 > 12)
-console.log((!4 > 3))
-console.log((!4 < 3))
-console.log(!(false))
-console.log(!(4 > 3 && 10 < 12))
-console.log(!(4 > 3 && 10 > 12))
-console.log(!(4 === '4'))
+console.log(4 > 3 && 10 < 12);
+console.log(4 > 3 && 10 > 12);
+console.log(4 > 3 || 10 < 12);
+console.log(4 > 3 || 10 > 12);
+console.log((!4 > 3));
+console.log((!4 < 3));
+console.log(!(false));
+console.log(!(4 > 3 && 10 < 12));
+console.log(!(4 > 3 && 10 > 12));
+console.log(!(4 === '4'));
+
+//year today
+const currentYear = new Date().getFullYear();
+console.log(currentYear);
+
+//current month
+const currentMonth = new Date().getMonth();
+console.log(currentMonth);
+
+//current day date
+const currentDate = new Date().Date();
+console.log(currentDate);
+
+//date as a number
+const now = new Date()
+console.log(now.getHours()) // 0
+
+//hours now
+const now = new Date()
+console.log(now.getHours()) // 0
+
+//minutes now
+const now = new Date()
+console.log(now.getMinutes()) 
+
+//seconds since 1970
+const now = new Date();
+console.log(now.getTime())
 
 
-
+//level 2
