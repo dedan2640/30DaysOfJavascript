@@ -113,7 +113,7 @@ let base = prompt("Enter base: ")
 let height = prompt("Enter height: ")
 let area = 0.5 *base * height
 
-console.log("The of the triangle: " + area)
+console.log("The of the triangle: " , area)
 
 //perimeter of triangle
 let a = prompt("Enter side a: ")
@@ -121,7 +121,7 @@ let b = prompt("Enter side b: ")
 let c = prompt("Enter side c: ")
 let perimeter = a + b +c
 
-console.log("The perimeter of the triangle is: " + perimeter)
+console.log("The perimeter of the triangle is: " , perimeter)
 
 //perimeter and area of rectangle
 let length = prompt("Enter length: ")
@@ -135,3 +135,62 @@ const PI = 5.142
 let area = PI *radius *radius
 let cicumference = 2 * PI * radius
 
+//print
+console.log("Area: " ,area )
+console.log("Circumference: ", cicumference )
+
+//calculate slope,x and y intercepts
+const x1 = 2, y1 = 2; //first point
+const x2 = 6, y2 = 10; //second point
+
+const slope = (y2 - y1) / (x2 - x1);
+
+// Print the slope
+console.log("Slope (m):", slope);
+
+
+//solve quadrartic equation
+function calculateY(x) {
+    return x * x + 6 * x + 9; // y = x^2 + 6x + 9
+  }
+  
+  // Try different values of x
+  for (let x = -5; x <= 5; x++) {
+    const y = calculateY(x);
+    console.log(`When x = ${x}, y = ${y}`);
+  }
+  
+//calculate pay according to hours worked
+const hours = prompt("Enter hours: ")
+const rate_per_hour = prompt("Enter rate per hour: ")
+let pay = hours * rate_per_hour
+
+//length of my name
+const name = "Dedan";
+
+if (name>7){
+    console.log("Long")
+}else{
+    console.log("short")
+}
+
+//compare firstname length and my family name
+let firstName ="dedan"
+let firstNameLen = length.firstName
+let surname = "ngaruiya"
+let surnameLength = length.surname
+if (firstNameLen>surnameLength){
+    console.log("Your first name", firstName, "is longer than your family name", surname)
+}
+
+//determin who is older
+let myAge = 18
+let yourAge = 27
+let age_diff = yourAge-myAge 
+console.log("I am", age_diff, "older than you")
+
+//determine is user can drive
+const user_age = prompt("Enter your age: ")
+if (user_age>= 18){
+    console.log("You are", user_age,"old. You are allowed to drive")
+}
